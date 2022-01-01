@@ -16,9 +16,7 @@
     --cor4: #033473;
 }
 
-body {
-    background-color:var(--cor0);
-}
+
 
 h1{
     color: var(--cor3);
