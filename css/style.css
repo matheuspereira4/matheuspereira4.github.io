@@ -1,0 +1,42 @@
+@charset "UFT-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+:root{
+    --cor00: hsl(203, 100%, 95%);
+    --cor0: #F2ECCE;
+    --cor1: #50ABBF;
+    --cor2: #3F9BBF;
+    --cor3: #1B65A6;
+    --cor4: #033473;
+    
+}
+
+body{
+    background-color: #1B65A6;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{ 
+    color: var(--cor3);
+   
+}
+
+h2{
+    color: var(--cor3);
+}
+
+h3{
+    color: var(--cor3);
+}
+
