@@ -67,3 +67,29 @@ p{
     background-color: rgb(46, 85, 170);
   
 }
+
+
+#interesses{
+
+    
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#interesses li{
+    display: inline;
+}
+
+#interesses li a{
+    color:  #14375f;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#interesses li a:hover{
+    background-color: rgb(205, 220, 253);
+  
+}
