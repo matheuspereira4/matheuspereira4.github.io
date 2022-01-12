@@ -1,0 +1,122 @@
+@charset "UFT-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+:root{
+    --cor00: hsl(203, 100%, 95%);
+    --cor0: #F2ECCE;
+    --cor1: #50ABBF;
+    --cor2: #3F9BBF;
+    --cor3: #1B65A6;
+    --cor4: #033473;
+    
+}
+
+body{
+    background-color: #021e3f;
+}
+
+main{
+    background-color:white;
+    margin: auto;
+    min-width: 320px;
+    max-width: 900px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+h1{ 
+    color: #14375f;
+   
+}
+
+h2{
+    color: #14375f;
+}
+
+h3{
+    color:#14375f;
+}
+
+p{
+    font-family: 700;
+    font-style: oblique;
+    color:black;
+}
+
+#menu{
+    background-color: #14375f;
+    list-style-type: none;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#menu li a:hover{
+    background-color: rgb(46, 85, 170);
+    color: rgb(250, 86, 201);
+  
+}
+
+#interesses{
+
+    
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#interesses li{
+    display: inline;
+}
+
+#interesses li a{
+    color:  #14375f;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#interesses li a:hover{
+    color:#d80993ec;
+  
+}
+
+
+
+#t:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-size: italic;
+    transition: .2s;
+}
+#s:hover{
+    font-size: large;
+    font-weight: bold;
+    transition: .2s;
+}
+#u:hover{
+    font-size: large;
+    font-weight: bold;
+    transition: .2s;
+}
+
+
