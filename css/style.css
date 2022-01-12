@@ -122,4 +122,10 @@ p{
     transition: .2s;
 }
 
+@media screen and (max-width:400px){
+    #menu{
+        position: fixed;
+    }
+}
+
 
