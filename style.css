@@ -1,0 +1,276 @@
+@charset "UFT-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+div{
+    text-align: center;
+}
+
+:root{
+    --cor00: hsl(203, 100%, 95%);
+    --cor0: #F2ECCE;
+    --cor1: #50ABBF;
+    --cor2: #3F9BBF;
+    --cor3: #1B65A6;
+    --cor4: hsl(214, 95%, 23%);
+    --cor5: #021e3f;
+    --cor6: rgba(7, 86, 131, 0.966);
+    
+}
+
+/* fundo */
+body{
+    background-color: rgba(7, 86, 131, 0.966);
+    background-image: url(f.png);
+}
+
+
+/* meio */
+#man{ 
+    background-color:rgba(51, 50, 50, 0.966);
+    background-image: url(preto.png);
+    width: 800px;
+    height: 4200px;
+    
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#mani{ 
+    background-color:rgba(51, 50, 50, 0.966);
+    width: 800px;
+    height: 2000px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#manis{ 
+    background-color:rgba(255, 255, 255, 0.966);
+    width: 800px;
+    height: 1000px;
+    margin:auto;
+    padding: 25px;
+  
+}
+
+#uti{
+    color: black;
+}
+
+#qm{ 
+    background-color:rgba(51, 50, 50, 0.966);
+    width: 800px;
+    height: 1700px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#coluna{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 1050px;
+    float: left;
+    margin: 15px 50px;
+    padding: 15px;
+    border: double 7px rgb(255, 179, 38)
+   
+
+}
+
+.ab{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* título */
+h1{ 
+    text-align: center;
+    color:rgba(43, 146, 206, 0.966);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+h2{
+    text-align: center;
+    color:rgba(43, 146, 206, 0.966);
+}
+
+h3{
+    color: #2868b1;
+}
+
+/* textos */
+p{
+    color:#ffffff;
+    margin: 25px 45px 10px;
+    text-indent: 20px;
+    text-align: justify;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* textos também */
+.a{
+    margin: 25px 35px 1px;
+    color:#ffffff;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#id{
+    color: white;
+}
+
+#t{
+    color: rgb(116, 112, 112);
+    
+}
+
+h4{
+    color: rgb(145, 44, 44);
+}
+
+#lista{
+    background-color:white;
+    margin: auto;
+    min-width: 320px;
+    max-width: 900px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.navbar-list{
+    height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 1px;
+
+}
+
+.colum{
+    
+    list-style-type: none;
+    padding: 1px;
+    border-radius: 1px;
+
+}
+
+.colum li{
+    display: inline;
+}
+
+.colum li a{
+    color:rgba(43, 146, 206, 0.966);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    display: block;
+    transition: background .3s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.colum li a:hover{
+    
+    color: #1c2d7a;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: background .3s;
+  
+}
+
+
+.navbar-list li{
+    display: inline;
+}
+
+.navbar-list--show-links{
+    height: 25rem;
+}
+
+/* título */
+.navbar-list li a{
+    color:rgba(43, 146, 206, 0.966);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px;
+    display: block;
+    transition: background .3s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* cor do título quando você passa o cursos */
+.navbar-list li a:hover{
+    
+    color: rgb(255, 179, 38);
+    
+    transition: background .3s;
+  
+}
+
+
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-header__toogle {
+    background: transparent;
+    border: transparent;
+    font-size: 3.2rem;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.navbar-header:hover {
+        transform: scale(1.2);
+}
+
+@media screen and (min-width:200px){
+    .botao__toogle {
+        display: none;
+    }
+
+    .navbar-list{
+        height: auto;
+        
+    }
+
+    
+
+    .navbar-list__link:hover {
+        background: none;
+        padding-left: 1.6rem;
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+  
+
+
+
+
+}
+
+
